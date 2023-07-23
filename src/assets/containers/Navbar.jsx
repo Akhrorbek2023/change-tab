@@ -1,4 +1,4 @@
-import Native from "./Native"
+import Neutral from "./Neutral"
 import Negative from "./Negative"
 import Positive from "./Positive"
 import { Link,useParams,useRoutes,useLocation,useNavigate } from "react-router-dom"
@@ -28,7 +28,7 @@ const Navbar = ()=>{
     useEffect(() => {
         if(location.pathname == "/Positive") setToggle(1);
         if(location.pathname == "/Negative") setToggle(2);
-        if(location.pathname == "/Native") setToggle(3);    
+        if(location.pathname == "/Neutral") setToggle(3);    
     },[])
 
     
@@ -48,7 +48,7 @@ const Navbar = ()=>{
         },
         {
             id:3,
-            title:"Native"
+            title:"Neutral"
         }
     ]
     const changeTab = (e) => {

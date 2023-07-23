@@ -1,5 +1,5 @@
 import Nativ from "../images/icons/natural.jpg"
-const Native = ()=>{
+const Neutral = ()=>{
     return(
         <div className="positive">
              <img src={Nativ} alt="Native" />
@@ -8,4 +8,4 @@ const Native = ()=>{
     )
 }
 
-export default Native
+export default Neutral
