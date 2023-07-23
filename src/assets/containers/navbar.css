@@ -1,0 +1,38 @@
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.link__hover-default{
+    border: 1px solid transparent;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.link__hover{
+    color: #fff;
+    background-color: rgb(39, 39, 40);
+    border: 1px solid blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.link__hover-default:hover{
+    color: #fff;
+    background-color: rgb(39, 39, 40);
+    border: 1px solid blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.link__hover-default:active{
+    color: #fff;
+    background-color: rgb(39, 39, 40);
+    border: 1px solid blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

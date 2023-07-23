@@ -1,0 +1,19 @@
+
+#form .search::placeholder {
+    color: rgba(42, 42, 42, 0.5);
+    font-size: 16px;
+    font-weight: 700;
+}
+#form .search{
+    border: none;
+    outline: none;
+    background-color: rgb(247, 250, 251);
+    padding: 13px 15px;
+    border-radius: 8px;
+    margin-right: 10px;
+    width: 250px;
+    border: 1px solid transparent;
+}
+#form .search:hover{
+    border: 1px solid blue;
+}
