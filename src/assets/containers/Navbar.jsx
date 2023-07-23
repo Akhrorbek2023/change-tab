@@ -14,13 +14,13 @@ const Navbar = ()=>{
     const location = useLocation();
     
     const [inputValue, setInputValue] = useState(0);
+
+    const input = document.querySelector("input")
   
     const whatIsThis = (e)=>{
-        if(document.querySelector("input").value > 3 ){
-            alert("Iltimos kichikroq son yozmog'iz darkordir!")
-        }else{
-            setInputValue(e.target.value);
-        }
+      
+
+        setInputValue(input.value);
 
     }
     const [toggle, setToggle] = useState(1);
@@ -53,6 +53,13 @@ const Navbar = ()=>{
     ]
     const changeTab = (e) => {
         e.preventDefault();
+        
+        if(input.value > 3 ){
+            alert("Iltimos kichikroq son yozmog'iz darkordir!")
+        }
+        
+        console.log(e.target.value)
+
         const item = listItem.find(item => item.id == inputValue);
         console.log(item);
         if(item) {
